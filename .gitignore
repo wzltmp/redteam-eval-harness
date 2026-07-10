@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+
+# Attack set IS tracked; results are regenerated locally.
+data/redteam_results.json
